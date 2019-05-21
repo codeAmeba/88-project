@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# 88-project
- We are 88
-
-=======
 # Let’s make my SUBWAY sandwich
 ***
 ## 컨셉
@@ -78,5 +73,5 @@
 
 
 ## 시뮬레이션
->>>>>>> rmorigin/develop
+
 
