@@ -6,6 +6,7 @@
 #### 참고
 - [SUBWAY - 이용방법](http://subway.co.kr/utilizationSubway)
 - [SUBWAY - 햄](http://subway.co.kr/sandwichView?param=cl04)
+- [커스텀샌드위치](http://www.supersandwich.com/sandwiches/build-your-own/choose-size#)
 
 ## 리소스
 ### 1. 메뉴선택
