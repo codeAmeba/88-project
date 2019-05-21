@@ -4,6 +4,7 @@
 써브웨이 샌드위치는 맛있지만, 주문하기가 너무 어렵다. 재촉하는 듯한 알바의 눈빛은 날 초조하게 만들고, 내 혀는 꼬인다. 
 **Let’s make my SUBWAY sandwich**를 통해 시선과 시간의 압박 없이 내가 정말로 원하는 샌드위치를 미리 만들어봅시다! 완성된 샌드위치와 주문 멘트로 당당하게 써브웨이로 향합시다!
 #### 참고
+- [SUBWAY - 이용방법](http://subway.co.kr/utilizationSubway)
 - [SUBWAY - 햄](http://subway.co.kr/sandwichView?param=cl04)
 
 ## 리소스
