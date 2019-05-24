@@ -85,9 +85,6 @@ header{
   margin-bottom: 50px;
   text-align: center;
 }
-.subwayTitle h2{
-  font-size:3em;
-}
 
 .subwayList{
   display: flex;
@@ -95,8 +92,10 @@ header{
   margin-bottom: 50px;
 }
 .breadList h2{
-  padding:20px;
+  padding:20px 0px;
   font-size:2em;
+  color:#000;
+  font-weight: bold;
 }
 .list p{
   font-size:1.4em;
@@ -125,6 +124,12 @@ header{
 .list:last-child{
   margin-right:0;
 }
+
+.list:hover, .li:hover > dd:first-child{
+  background: #009223;
+  color:#ddd;
+  transition:background-color 1s, transform 2s;
+}
 .list dl{
   text-align: center;
 }
@@ -139,4 +144,77 @@ header{
   font-size:1.2em;
   font-weight: bold;
   color:#ffc300;
+}
+/* Popup container - can be anything you want */
+.bg-wrap{
+  padding:50px;
+  background: #f1f1f1;
+}
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding:15px 40px;
+  border:1px solid #009223;
+  border-radius: 10px;
+  font-size:1.2em;
+  background: #009223;
+  color:#fff;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  /* width: 160px; */
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 20px 10px;
+  position: absolute;
+  z-index: 1;
+  width:600px;
+  left:50%;
+  bottom:300%;
+  margin-left:-300px;
+  /* bottom: 325%;
+  left: 50%;
+  margin-left: -80px; */
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  /* margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent; */
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+.btn-wrap{
+  text-align: center
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
 }
