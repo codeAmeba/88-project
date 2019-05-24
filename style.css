@@ -75,6 +75,15 @@ a{
 	margin:-1px;
 	clip:rect(0, 0, 0, 0);
 }
+.intro-body {
+	background-color: #009947;
+}
+.intro-img {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 800px;
+}
 
 header{
   padding:30px 0 20px;
