@@ -51,7 +51,7 @@ body{
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 400;
   color:#666;
-  background: #f1f1f1;
+  background: #fff;
 }
 
 a{
@@ -65,3 +65,69 @@ a{
 녹색 : #009223;
 노란색 : #ffc300;
 ==== */
+
+
+header{
+  padding:30px 0 20px;
+  text-align: center;
+  border-top:5px solid #009223;
+}
+.subwayTitle{
+  margin-bottom: 50px;
+  text-align: center;
+}
+.subwayTitle h2{
+  font-size:3em;
+}
+
+.subwayList{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.breadList h2{
+  padding:20px;
+  font-size:2em;
+}
+.list p{
+  font-size:1.4em;
+  text-align: center;
+  color:#000;
+}
+.list p span{
+  display: block;
+  font-size:15px;
+  color:#666;
+}
+.list p span.yellow{
+  font-size:17px;
+  font-weight: bold;
+  color:#ffc300;
+}
+.list img{
+  max-width: 100%;
+  height:auto;
+}
+.list{
+  padding:30px 20px;
+  margin-right:10px;
+  background: #fff;
+}
+.list:last-child{
+  margin-right:0;
+}
+.list dl{
+  text-align: center;
+}
+.list dt{
+  margin-bottom:5px;
+  font-size:1.4em;
+  font-weight: bold;
+  color:#000;
+} 
+.list dd.yellow{
+  margin-top:5px;
+  font-size:1.2em;
+  font-weight: bold;
+  color:#ffc300;
+}
