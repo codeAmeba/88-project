@@ -65,3 +65,13 @@ a{
 녹색 : #009223;
 노란색 : #ffc300;
 ==== */
+
+/* 숨김 콘턴츠 */
+.readable-hidden, legend{
+	position: absolute;
+	width:1px;
+	height:1px;
+	overflow: hidden;
+	margin:-1px;
+	clip:rect(0, 0, 0, 0);
+}
