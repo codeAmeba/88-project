@@ -221,18 +221,22 @@ header img{
   to {opacity:1 ;}
 }
 
-/* input[type="checkbox"] {
-  padding:20px
-} */
-
 
 .input{
-  border:2px solid red;
   width:20px;
   height:20px;
 }
 
-
+.btnadd{
+  text-align: center;
+}
+.btnadd input{
+  padding:10px 40px;
+  font-size:1.1em;
+  color: #fff;
+  background: #009223;
+  border:1px solid #009223;
+}
 
 @media (max-width:768px) {
   .bg-wrap{
