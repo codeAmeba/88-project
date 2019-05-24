@@ -197,7 +197,7 @@
                 </dl>
             </div>
             <div class="list">
-                  <input type="checkbox" name="" value="">
+                  <input type="checkbox" name="menu" value="오트밀레이즌">
                 <dl>
                   <dt><img src="images/material/side_oatmealraisin.jpg" alt="오트밀레이즌"></dt>
                   <dt>오트밀 레이즌</dt>
@@ -206,7 +206,7 @@
                 </dl>
             </div>
             <div class="list">
-                <input type="checkbox" name="test" value="">
+                <input type="checkbox" name="menu" value="라즈베리치즈케익">
                 <dl>
                   <dt><img src="images/material/side_raspberry.jpg" alt="라즈베리치즈케익"></dt>
                   <dt>라즈베리 치즈케익</dt>
@@ -215,7 +215,9 @@
                 </dl>
             </div>
             <div class="list">
-                  <input type="checkbox" name="" value="">
+
+                  <input type="checkbox" name="menu" value="화이트초코마카다미아">
+
                 <dl>
                   <dt><img src="images/material/side_whitechoco.jpg" alt="화이트초코마카다미아"></dt>
                   <dt>화이트 초코 마카다미아</dt>
@@ -225,13 +227,23 @@
             </div>
         </div>
     </section>
-
-    <div class="btn-wrap">
-        <button class="popup">내 샌드위치 확인!
-        </button>
-    </div>
+    <input type="button" onclick="myFunction()" value="Send order">
+    <input type="text" id="order" size="50">
+    <input type="submit" value="Submit">
+    </form>
   </div>
-  <script src="main.js"></script>
-
+  <script>
+    function myFunction() {
+      var menu = document.forms[0];
+      var txt = "";
+      var i;
+      for (i = 0; i < menu.length; i++) {
+        if (menu[i].checked) {
+          txt = txt + menu[i].value + ", ";
+        }
+      }
+      document.getElementById("order").value = "선택한 내용 : " + txt;
+    }
+  </script>
 </body>
 </html>
